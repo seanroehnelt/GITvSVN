@@ -1,10 +1,13 @@
 Subversion (SVN)          Git 
-________________________  _____________________
-
-svn status                git fetch
-                          git status (without 'git fetch' status is local only)
-
+________________________  ___________________________________________________________________________
+svn status                git fetch (pull commit info from remote repo but don't update working copy)
+                          git status (local repo status only if not preceeded by 'git fetch')
+________________________  ___________________________________________________________________________
 svn update                git pull
-
+________________________  ___________________________________________________________________________
+svn commit                git commit
+                          git push ()
+________________________  ___________________________________________________________________________
 svn revert file-name      git checkout file-name
+________________________  ___________________________________________________________________________
 
