@@ -1,4 +1,4 @@
-	**SVN**												**Git**  
+**SVN**												**Git**  
 - - -  
 	svn status								git fetch  
 															git status
