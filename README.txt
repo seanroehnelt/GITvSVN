@@ -10,4 +10,11 @@ svn commit                git commit
 ________________________  ___________________________________________________________________________
 svn revert file-name      git checkout file-name
 ________________________  ___________________________________________________________________________
+<move local changes       git rebase master
+aside; 'svn update' to 
+tip of trunk then merge 
+local changes back onto
+working copy after
+merge operation>
+________________________  ___________________________________________________________________________
 
