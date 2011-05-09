@@ -1,9 +1,9 @@
-**SVN**												**Git**  
+**SVN**					**Git**  
 - - -  
-	svn status								git fetch  
-															git status
+	svn status			git fetch  
+					git status
 - - -  
-	svn update								git pull        
+	svn update			git pull        
 
 ---
 
