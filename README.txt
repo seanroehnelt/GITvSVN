@@ -1,6 +1,11 @@
 Key workflow disconnects when moving from SVN to Git
 -----------------------------------------------------
 
+Git confuses SCM users because Git uses much of the same terminology (checkout, add, commit, branch, tag). When using Git the very first thing people familiar with SCM's need to understand is these commands in Git are just plain named wrong. They do not map to SVN for example.
+
+
+
+2011-07-01
 Using SVN, a common workflow I've used over the years, to track down when/where a bug was introduced, is to use Filemerge.app by comparing trunk and with a branch or tag that is knows to not contain the bug.
 
 opendiff [SVN]/branches/known-branch-or-tag-without-bug/path/to/project/or/module_dir [SVN]/trunk/path/to/project/or/module_dir
@@ -13,7 +18,7 @@ In any case, I need to adapt my workflow, because with Git you only have one [an
 
 What complicated this further is we don't have a single repo when we really should have all of our related projects code base in the same repo... that's a whole other story and train of thought. 
 
-bah!
+
 
 
 Subversion (SVN)          Git 
